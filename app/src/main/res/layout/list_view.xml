@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/cuname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Customer Name"
+        android:textColor="#131111"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/cuphone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Phone"
+        android:textColor="#131111"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/cuaddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Address"
+        android:textColor="#131111"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/coid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Order ID"
+        android:textColor="#131111"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/copay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Full Payment"
+        android:textColor="#131111"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/cuvehino"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Vehical No"
+        android:textColor="#131111"
+        android:textSize="18sp" />
+</LinearLayout>

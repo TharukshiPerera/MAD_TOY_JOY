@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:padding="10dp"
+        android:text="Oprations "
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/updateTextname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Customer Name" />
+
+    <EditText
+        android:id="@+id/updateTextemail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Phone" />
+
+    <EditText
+        android:id="@+id/updateTextmobileno"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Address" />
+
+    <EditText
+        android:id="@+id/updateorderid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Order ID" />
+
+    <EditText
+        android:id="@+id/updatepayment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Full Payment" />
+
+    <EditText
+        android:id="@+id/updatevehino"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Vehical No" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/buttonDeleteUser"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#FF0000"
+            android:text="Delete" />
+
+        <Button
+            android:id="@+id/buttonUpdateUser"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#a4c639"
+            android:text="Update" />
+
+
+
+
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/btnhome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#0000ff"
+        android:text="Go Delivery Home" />
+
+</LinearLayout>

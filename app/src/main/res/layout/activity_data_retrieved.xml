@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout"
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="Oprations "
+        android:textColor="#000"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/updateTextname"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="Customer Name"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <EditText
+        android:id="@+id/updateTextemail"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="Phone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/updateTextname" />
+
+    <EditText
+        android:id="@+id/updateTextmobileno"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="Address"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/updateTextemail" />
+
+    <EditText
+        android:id="@+id/updateorderid"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="Order ID"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/updateTextmobileno" />
+
+    <EditText
+        android:id="@+id/updatepayment"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:hint="Full Payment"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/updateorderid" />
+
+
+    <EditText
+        android:id="@+id/updatevehino"
+        android:layout_width="387dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="20dp"
+        android:hint="Vehical No"
+        app:layout_constraintEnd_toEndOf="@+id/buttonDeleteUser"
+        app:layout_constraintHorizontal_bias="0.532"
+        app:layout_constraintStart_toEndOf="@+id/buttonDeleteUser"
+        app:layout_constraintTop_toBottomOf="@+id/updatepayment" />
+
+    <Button
+        android:id="@+id/buttonDeleteUser"
+        android:layout_width="145dp"
+        android:layout_height="35dp"
+        android:background="#FF0000"
+        android:text="Delete"
+        app:layout_constraintBaseline_toBaselineOf="@+id/buttonUpdateUser"
+        app:layout_constraintEnd_toStartOf="@+id/buttonUpdateUser"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+    <Button
+        android:id="@+id/buttonUpdateUser"
+        android:layout_width="138dp"
+        android:layout_height="34dp"
+        android:layout_marginTop="48dp"
+        android:background="#a4c639"
+        android:text="Update"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/buttonDeleteUser"
+        app:layout_constraintTop_toBottomOf="@+id/updatevehino" />
+
+    <Button
+        android:id="@+id/btnhome"
+        android:layout_width="147dp"
+        android:layout_height="33dp"
+        android:layout_marginTop="24dp"
+        android:background="#0000ff"
+        android:text="Go Delivery Home"
+        app:layout_constraintEnd_toEndOf="@+id/buttonDeleteUser"
+        app:layout_constraintHorizontal_bias="0.367"
+        app:layout_constraintStart_toEndOf="@+id/buttonDeleteUser"
+        app:layout_constraintTop_toBottomOf="@+id/buttonDeleteUser" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

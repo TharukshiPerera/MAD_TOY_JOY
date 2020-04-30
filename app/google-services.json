@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "956460063134",
+    "firebase_url": "https://fir-database-ffdea.firebaseio.com",
+    "project_id": "fir-database-ffdea",
+    "storage_bucket": "fir-database-ffdea.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:956460063134:android:244af03550e835bc5cde8f",
+        "android_client_info": {
+          "package_name": "com.example.toy_joy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "956460063134-vek83e4nj0dpemfkb6b2e3capjjukm81.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.toy_joy",
+            "certificate_hash": "a22886aaa70ab0516aa9a770a21070f321b9be14"
+          }
+        },
+        {
+          "client_id": "956460063134-61vcnh1rsu6fjhapfglfv4gvhn0569rf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC9lbOJVyN0fvW5JWNntCgGSn6wI5TUau4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "956460063134-61vcnh1rsu6fjhapfglfv4gvhn0569rf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
